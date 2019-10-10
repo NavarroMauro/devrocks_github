@@ -1,0 +1,30 @@
+.container#content {
+  margin-top: 60px;
+}
+
+body {
+  background-color: $light-gray;
+  font-family: $site-font;
+}
+
+@media only screen and (min-width: 600px) {
+  #email-button {
+    position: relative;
+    top: -200px;
+    right: 200px;
+    bottom: 50%;
+  }
+}
+
+header {
+  height: 100vh;
+  .logo-container {
+    text-align: center;
+    img {
+      margin: 10rem 0;
+      width: 50%;
+    }
+  }
+  background-image: url("../images/devRocksBrandungHomeBG.jpg");
+  background-size: 100% 100%;
+}
